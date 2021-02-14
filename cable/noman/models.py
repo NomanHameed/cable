@@ -70,6 +70,7 @@ class Client(DefaultClass):
     cnic = models.CharField(max_length=200, null=True, blank=True)
     address= models.CharField(max_length=1024, null=True, blank=True)
     # balance is here...
+    
     balance = models.IntegerField(null=True, blank=True, default=0)
     created_at = models.DateTimeField()
 
